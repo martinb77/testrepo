@@ -1,0 +1,68 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Get part usages by plant",
+  "required": [
+    "uuid",
+    "plant",
+    "partNumbers",
+    "bomValidityDateType",
+    "bomValidityDate",
+    "assemblyLocation",
+    "bomType",
+    "includeInterstages",
+    "validOnly"
+  ],
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "description": "UUID which allows to monitor the request in the affected systems"
+    },
+    "plant": {
+      "type": "string",
+      "description": "The requested plant in PDM notation."
+    },
+    "partNumbers": {
+      "type": "array",
+      "description": "The requested part numbers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "modelCodes": {
+      "type": "array",
+      "description": "The requested model codes",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bomValidityDateType": {
+      "type": "string",
+      "enum": ["DATE_ONLY", "DATE_FROM"],
+      "description": "Determines the meaning of the following attribute bomValidityDate."
+    },
+    "bomValidityDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The requested BOM validity date."
+    },
+    "assemblyLocation": {
+      "type": "string",
+      "description": "The requested assembly location in PDM notation"
+    },
+    "bomType": {
+      "type": "string",
+      "enum": ["SINGLE_STAGE", "MULTIPLE_STAGES"],
+      "description": "The requested BOM type"
+    },
+    "includeInterstages": {
+      "type": "boolean",
+      "description": "True, if the result should include interstages."
+    },
+    "validOnly": {
+      "type": "boolean",
+      "description": "True, if the result should include only valid usages."
+    }
+  }
+}
