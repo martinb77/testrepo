@@ -1,0 +1,4 @@
+berechne() 
+	schritt 1
+	schritt 2
+ende
