@@ -1,0 +1,6 @@
+//Implementierung zu https://github.com/martinb77/testrepo/wiki/Komponente1
+
+berechneRelease2020() 
+	schritt 1
+	schritt 2
+ende
