@@ -8,4 +8,4 @@ berechneVertrag(...)
     Ende
 Ende
 ```
-[Code](../../Klasse1DE.txt#L3)
+[Code](../Klasse1DE.txt#L3)
