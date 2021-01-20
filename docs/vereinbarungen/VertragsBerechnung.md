@@ -8,4 +8,4 @@ berechneVertrag(...)
     Ende
 Ende
 ```
-[Code](../Klasse1DE.txt#L3)
+[Code](https://github.com/martinb77/testrepo/blob/master/Klasse1DE.txt#L3)
