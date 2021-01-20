@@ -1,4 +1,4 @@
-### Beschreibung : Todo 
+### Beschreibung: Todo 
 ### Eingabe: - 
 ### Ausgabe: - 
 ```
