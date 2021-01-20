@@ -1,6 +1,6 @@
-Beschreibung | Todo 
-Eingabe | - 
-Ausgabe | - 
+Beschreibung | ---  | Todo 
+Eingabe | --- | - 
+Ausgabe | --- | - 
 ```
 berechneVertrag(...)
     Schleife über alle Vereinbarungen v
@@ -8,3 +8,4 @@ berechneVertrag(...)
     Ende
 Ende
 ```
+[Code](../../Klasse1DE.txt#L3)
